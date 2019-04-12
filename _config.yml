@@ -1,1 +1,7 @@
-theme: jekyll-theme-slate
+title: "The Unofficial r/selfhosted Wiki"
+github:
+  is_project_page: true
+  repository_url: "https://github.com/kaysond/selfhosted-wiki"
+  repository_name: "selfhosted-wiki"
+  owner_url: "https://github.com/kaysond"
+  owner_name: "Aram Akhavan"
