@@ -1,5 +1,7 @@
 title: "The Unofficial r/selfhosted Wiki"
 permalink: none
+exclude: [examples/]
+
 # For the slate theme
 github:
   is_project_page: true
