@@ -1,4 +1,6 @@
 title: "The Unofficial r/selfhosted Wiki"
+permalink: none
+# For the slate theme
 github:
   is_project_page: true
   repository_url: "https://github.com/kaysond/selfhosted-wiki"

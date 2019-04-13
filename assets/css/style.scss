@@ -2,3 +2,24 @@
 ---
 
 @import "jekyll-theme-slate";
+h1 > a {
+	color: #fff;
+}
+h1 > a:hover, h1 > a:focus {
+	text-decoration: none;
+}
+a.nav {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 300;
+	background: none;
+	text-shadow: #111 0px 0px 10px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+div.related-wrapper {
+	display: inline;
+}
+div.related {
+	display: none;
+}
