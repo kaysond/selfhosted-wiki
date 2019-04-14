@@ -2,7 +2,7 @@
 Pull requests are always welcome both for content and wiki improvements.
 
 ## Adding a wiki page
-The r/selfhosted wiki is built using [jekyll](https://jekyllrb.com/). Adding a wiki page is as simple as creating a markdown file in the proper directory: the `_posts` directory of either `guides`, `pages`, or `knowledgebase` depending on the type of page.
+Adding a wiki page is as simple as creating a markdown file in the proper directory: the `_posts` directory of either `guides`, `pages`, or `knowledgebase` depending on the type of page. The IPFS instance of the r/selfhosted wiki is built using [jekyll](https://jekyllrb.com/), but note that you can contribute to the wiki entirely through Github by using its built-in editor and Github Pages (see [#Building](Building)).
 
 ### Page types
 * Guide - installation guides, tutorials, anything too long for a simple page, etc.
