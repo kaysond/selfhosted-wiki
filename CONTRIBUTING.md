@@ -37,8 +37,8 @@ The first paragraph of content in a page is used as an excerpt shown in the "Rel
 #### Assets
 If a page requires additional assets, such as images, scripts, pdf files, etc, those should be stored in a subdirectory of the `assets` directory adjacent to the `_posts` directory in which the page resides. The subdirectory should be the same as the page's filename, without the date code or extension. For example, if the page is `guides/_posts/2019-04-12-example-guide-title.md` then the assets should be placed in `/guides/assets/example-guide-title/`. For convenience, define an `assets` variable in the Front Matter above containing the path to that subdirectory. Use the following [Liquid](https://jekyllrb.com/docs/liquid/) syntax to point to your assets: `{{ "image.png" | prepend: page.assets | relative_url }}`).
 
-#### Syntax
-Most pages should be written entirely in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Although jekyll does support various variables via Liquid, use is strongly discouraged for the sake of compatibility. The exceptions are: asset paths, links, and syntax highlighting. For those, Liquid must be used. Additionally, always use `| relative_url` for paths. See [the jekyll documentation](https://jekyllrb.com/docs/liquid/tags/) for details.
+#### Syntax and Formatting
+Most pages should be written entirely in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Although jekyll does support various variables via Liquid, use is strongly discouraged for the sake of compatibility. The exceptions are: asset paths, links, and syntax highlighting. For those, Liquid must be used. Additionally, always use `| relative_url` for paths. See [the jekyll documentation](https://jekyllrb.com/docs/liquid/tags/) for details. Guides and pages are relatively free form. For knowledge base entries, however, please follow the formatting in the example.
 
 ## Building
 See [BUILD.md](/BUILD.md). Please test build your changes before submitting a pull request.
