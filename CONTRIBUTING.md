@@ -2,7 +2,7 @@
 Pull requests are always welcome both for content and wiki improvements.
 
 ## Adding a wiki page
-Adding a wiki page is as simple as creating a markdown file in the proper directory: the `_posts` directory of either `guides`, `pages`, or `knowledgebase` depending on the type of page. The IPFS instance of the r/selfhosted wiki is built using [jekyll](https://jekyllrb.com/), but note that you can contribute to the wiki entirely through Github by using its built-in editor and Github Pages (see [#Building](Building)).
+Adding a wiki page is as simple as creating a markdown file in the proper directory: the `_posts` subdirectory of either `guides`, `pages`, or `knowledgebase` depending on the type of page.
 
 ### Page types
 * Guide - installation guides, tutorials, anything too long for a simple page, etc.
@@ -41,7 +41,7 @@ If a page requires additional assets, such as images, scripts, pdf files, etc, t
 Most pages should be written entirely in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Although jekyll does support various variables via Liquid, use is strongly discouraged for the sake of compatibility. The exceptions are: asset paths, links, and syntax highlighting. For those, Liquid must be used. Additionally, always use `| relative_url` for paths. See [the jekyll documentation](https://jekyllrb.com/docs/liquid/tags/) for details. Guides and pages are relatively free form. For knowledge base entries, however, please follow the formatting in the example.
 
 ## Building
-See [BUILDING.md](/BUILDING.md). Please test build your changes before submitting a pull request.
+See [BUILDING.md](/BUILDING.md). The IPFS instance of the r/selfhosted wiki is built using [jekyll](https://jekyllrb.com/), but note that you can contribute to the wiki entirely through Github by using its built-in editor and Github Pages. Please test build your changes before submitting a pull request.
 
 ## Examples
 * [guide](/examples/2019-04-12-example-guide.md)
