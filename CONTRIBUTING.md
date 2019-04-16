@@ -28,7 +28,7 @@ assets:
 `layout` must be `post`, but the rest of the fields are author-defined. `title` is the only required field, but authors are encouraged to complete all of them:
 * `title` - The title is automatically listed at the top of your page (so no need to include it in your content). It is also used in the wiki page listings
 * `tags` - The syntax for tags is `[tag1, tag2, tag3]`. Tags should be lower case alphanumeric. Please search the existing tags (see `/tags`) before adding your own. If you do add a new tag, you need to run `scripts/generate-tag-pages.sh` from the repository root to regenerate the tag listings.
-* `author` - The author's name, which is listed at the bottom of the page
+* `author` - The author's name, which is listed at the bottom of the page. Consider making this a link (i.e. `[Author Name](<URL>)`) to your Github profile, Reddit profile, or e-mail address so readers can get ahold of you.
 * `assets` - A convenience variable for the directory containing your pages assets (see below)
 
 #### Excerpt
