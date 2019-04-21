@@ -1,6 +1,6 @@
 title: "The Unofficial r/selfhosted Wiki"
 permalink: none
-exclude: [examples/]
+exclude: [examples/, Gemfile, Gemfile.lock, HOSTING.md, README.md, BUILDING.md]
 
 # For the slate theme
 github:
