@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 set -e
 SHWHASH=QmaitnsR9myMoiJBjqRPY6LuHohTcDnLBDvGWdHZpgfNsj
 IPADDR=$(dig +short selfhosted.wiki)
