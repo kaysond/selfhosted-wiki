@@ -6,7 +6,7 @@ For ease of contribution, the wiki repository is hosted on [Github](https://gith
 
 ## Hosting
 
-The wiki is hosted on [IPFS](https://ipfs.io), a peer-to-peer hypermedia protocol. It relies on the community for wiki availability, so please consider deploying an IPFS node to help. To host a node please see [HOSTING.md](/HOSTING.md). Thanks to /u/TheChiefMeat for building and deploying the wiki.
+The wiki is hosted on [IPFS](https://ipfs.io), a peer-to-peer hypermedia protocol. It relies on the community for wiki availability, so please consider deploying an IPFS node to help. To host a node please see [HOSTING.md](/HOSTING.md).
 
 ## Building
 See [BUILDING.md](/BUILDING.md)
