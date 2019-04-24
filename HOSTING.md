@@ -28,7 +28,7 @@ You should then be able to access the wiki by going to `http://localhost:8080/ip
 
 ## Pinning and updating selfhosted.wiki
 
-In order to prevent garbage collection (automatic or manual) from removing the wiki content, it should be pinned using `ipfs pin add /ipns/selfhosted.wiki/`. Note that since IPFS is addressed by content, this command must be re-run every time the wiki content is updated, as the IPNS domain name will resolve elsewhere. A sample updating script is provided at scripts/ipfs_pin.sh. The script manually connects to the primary selfhosted.wiki IPFS node (to speed up download time), removes all old pins, and pins the new content. Please consider running this as a cron job!
+In order to prevent garbage collection (automatic or manual) from removing the wiki content, it should be pinned using `ipfs pin add /ipns/selfhosted.wiki/`. Note that since IPFS is addressed by content, this command must be re-run every time the wiki content is updated, as the IPNS domain name will resolve elsewhere. A sample updating script is provided at /scripts/ipfs_pin.sh. The script manually connects to the primary selfhosted.wiki IPFS node (to speed up download time), removes all old pins, and pins the new content. Please consider running this as a cron job!
 
 ### ipfsd Service
 
