@@ -5,6 +5,7 @@ The wiki is hosted on [IPFS](https://ipfs.io) at `/ipns/selfhosted.wiki/`. When 
 ## Installing IPFS
 
 Installing IPFS is as easy as copying a binary to somewhere in your `$PATH`. See https://docs.ipfs.io/introduction/install/ for detailed instructions.
+
 **Note:** Due to a [memory leak issue](https://github.com/ipfs/go-ipfs/issues/3532), it is recommended to build from source for the time being.
 
 ## Creating an IPFS node
