@@ -8,7 +8,7 @@ This wiki is maintained by the community at [r/selfhosted](https://www.reddit.co
 
 ## Contributing
 
-For ease of contribution, the wiki repository is hosted on [Github](https://github.com/kaysond/selfhosted-wiki). Please see [CONTRIBUTING.md](https://github.com/kaysond/selfhosted-wiki/blob/master/CONTRIBUTING.md) for details on creating a contribution pull request.
+For ease of contribution, the wiki repository is hosted on [Github](https://github.com/kaysond/selfhosted-wiki). Adding a page is a simple as forking the repo, adding your page via Github's build-in editor, and previewing changes using Github Pages. Please see [CONTRIBUTING.md](https://github.com/kaysond/selfhosted-wiki/blob/master/CONTRIBUTING.md) for details on creating a contribution pull request.
 
 ## Hosting
 
