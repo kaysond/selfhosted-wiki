@@ -1,0 +1,14 @@
+[Unit]
+Description=IPFS Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/lib/ipfs
+Environment="IPFS_PATH=/var/lib/ipfs"
+ExecStart=ipfs daemon --enable-gc
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
