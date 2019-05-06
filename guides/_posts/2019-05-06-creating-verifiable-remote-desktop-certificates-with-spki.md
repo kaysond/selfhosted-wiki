@@ -2,7 +2,7 @@
 title: "Creating Verifiable Remote Desktop Host Certificates with spki"
 layout: post
 tags: [openssl, spki, pki, windows, rdp]
-author: "[Aram Akhavan](https://github.com/kaysond)"
+author: "Aram Akhavan"
 assets: "/guides/assets/creating-verifiable-remote-desktop-host-certificates-with-spki/"
 ---
 This guide will show you how to use [`spki`](https://github.com/kaysond/spki) to generate and deploy fully verifiable x509 certificates for accessing your hosts via Windows Remote Desktop, eliminating the dreaded security warning.
